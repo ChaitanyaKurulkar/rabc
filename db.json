@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1732726172355",
+      "name": "Chaitanya Kurulkar",
+      "email": "chaitanya@gmail.com",
+      "role": "Admin",
+      "password": "1234",
+      "isActive": true
+    }
+  ],
+  "roles": [
+    {
+      "id": "1732730897949",
+      "name": "Admin",
+      "permissions": {
+        "read": true,
+        "write": true,
+        "delete": true
+      }
+    },
+    {
+      "id": "1732730908027",
+      "name": "User",
+      "permissions": {
+        "read": false,
+        "write": false,
+        "delete": false
+      }
+    }
+  ]
+}
